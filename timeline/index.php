@@ -9,7 +9,7 @@ require 'data.php';
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=yes">
-    <link rel="shortcut icon" type="image/png" href="/assets/img/nomask1.png"/>
+    <link rel="shortcut icon" type="image/png" href="../assets/img/nomask1.png"/>
     <meta name="description" content="The real Covid-19 timeline with full access to the most important documents regarding the Covid-19 pandemic">
     <meta name="keywords" content="covid19 timeline">
     <meta name="author" content="The Center For Advanced Studies in Health and Wellness Through Sanity">
@@ -18,8 +18,8 @@ require 'data.php';
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
 
 
-    <link href="/assets/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
     <link rel="stylesheet" href="timeline.css">
 
     <style>
@@ -52,13 +52,13 @@ require 'data.php';
     </style>
     <!-- Custom styles for this template -->
     <link href="../assets/dist/css/carousel.css" rel="stylesheet">
-    <link href="jumbotron.css" rel="stylesheet">
+<!--    <link href="jumbotron.css" rel="stylesheet">-->
 </head>
 <body>
 <header>
     <nav class="navbar navbar-expand-md fixed-top navbar-light" style="background-color: #e3f2fd;"">
-    <a class="navbar-brand" target="_blank" href="/legacy.php">
-        <img src="/assets/img/nomaskpalogo%20.png" width="180" alt="" loading="lazy">
+    <a class="navbar-brand" target="_blank" href="../legacy.php">
+        <img src="../assets/img/nomaskpalogo%20.png" width="180" alt="" loading="lazy">
     </a>
 
 </header>
@@ -94,7 +94,7 @@ require 'data.php';
                 <a id="openlink<?php echo $array['id'];  ?>" style="text-decoration: none" target="_blank" href="<?php echo $array['doc'];  ?>">
                     <button class="btn btn-primary">View Document</button></a>&nbsp;&nbsp;
                 <span><a style="text-decoration: none" target="_blank" href="<?php echo $array['doc'];  ?>">
-                        <img src="/assets/img/external-link-duotone.svg" width="25px;" alt=""></a></span>
+                        <img src="../assets/img/external-link-duotone.svg" width="25px;" alt=""></a></span>
             </div>
 
             <div id="iframe<?php echo $array['id'];  ?>" style="display: none">
@@ -115,7 +115,7 @@ require 'data.php';
             <div id="readmore<?php echo $array['id'];  ?>_text" style="display: none">
                 <br>
                 <div class="hover" id="showquotes<?php echo $array['id'];  ?>"> Quotes:&nbsp;&nbsp;
-                    <img width="25" height="25" src="/assets/img/eye-duotone.svg">
+                    <img width="25" height="25" src="../assets/img/eye-duotone.svg">
                     <br>
                     <br>
                 </div>
@@ -130,17 +130,17 @@ require 'data.php';
                     <div class="alert alert-secondary">"<?php echo $quote ?>"</div><br>
                     <?php }?>
 
-                    <p class="lead hover" style="display: none" id="closequotes<?php echo $array['id'];  ?>">Hide Quotes &nbsp;&nbsp;<img width="25" height="25" src="/assets/img/eye-slash-duotone.svg"></p><br>
+                    <p class="lead hover" style="display: none" id="closequotes<?php echo $array['id'];  ?>">Hide Quotes &nbsp;&nbsp;<img width="25" height="25" src="../assets/img/eye-slash-duotone.svg"></p><br>
                 </div>
 
                 <div class="hover" id="showcommentary<?php echo $array['id'];  ?>">Commentary:&nbsp;&nbsp;
-                    <img width="25" height="25" src="/assets/img/eye-duotone.svg">
+                    <img width="25" height="25" src="../assets/img/eye-duotone.svg">
                 </div>
 
                 <div style="display: none" id="commentarytext<?php echo $array['id'];?>">
                     <p class="lead"><b>Jason's Commentary On This Document : </b></p>
                     <div class="alert alert-secondary"><i> <?php echo $array['comments'] ?> </i>....JC<br><br></div>
-                    <p class="hover"  style="display: none" id="closecommentary<?php echo $array['id'];  ?>">Hide Commentary&nbsp;&nbsp;<img width="25" height="25" src="/assets/img/eye-slash-duotone.svg"></p>
+                    <p class="hover"  style="display: none" id="closecommentary<?php echo $array['id'];  ?>">Hide Commentary&nbsp;&nbsp;<img width="25" height="25" src="../assets/img/eye-slash-duotone.svg"></p>
 
 
                 </div>

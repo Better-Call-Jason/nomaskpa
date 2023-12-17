@@ -1,6 +1,6 @@
 <?php
 
-$url = "https://$_SERVER[HTTP_HOST]";
+$url = "http://$_SERVER[HTTP_HOST]/apps/nomaskpa";
 
 $header = array(
     "shortcut"=> "/assets/img/nomask1.png",
@@ -33,8 +33,8 @@ $article = array(
     "title2"=>"Protect Me From The Coronavirus?",
     "text1"=>"The CDC/NIH/WHO party line says that mask wearing is beneficial and helpful. But, the evidence from the scientific studies indicates something entirely different.",
     "text2"=>"The gold standard for masks, the N95, does NOT stop the Coronavirus! See the evidence in <a href=\"$url/assets/docs/n95oshastudy2007.pdf\" target=\"_blank\" style=\"text-decoration: none\">this study</a>",
-    "img1"=>"$url/assets/img/n95banner.jpg",
-    "imgalt1"=>"$url/assets/img/n95banner.jpg",
+    "img1"=>"assets/img/n95banner.jpg",
+    "imgalt1"=>"assets/img/n95banner.jpg",
 
     ),
 
@@ -54,8 +54,8 @@ $article = array(
     "title2"=>" against the Coronavirus",
     "text1"=>"The myth that my mask helps you and your mask helps me is revealed as utter nonsense.",
     "text2"=>"Keep scrolling to learn more about what <a href=\"$url/assets/docs/n95oshastudy2007.pdf\" target=\"_blank\" style=\"text-decoration: none\">this study</a> reveals!",
-    "img1"=>"$url/assets/img/article1n95conclusionnobenefit.png",
-    "imgalt1"=>"$url/assets/img/article1n95conclusionnobenefit.png",
+    "img1"=>"assets/img/article1n95conclusionnobenefit.png",
+    "imgalt1"=>"assets/img/article1n95conclusionnobenefit.png",
 
 ),
 
@@ -75,8 +75,8 @@ $article = array(
     "title2"=>"Are NOT Filtered By An N95 Mask",
     "text1"=>"There is a big problem with the N95 mask, Surgical Masks, and ALL homemade masks that has not been considered by the government, health authorities and news media.",
     "text2"=>"Even the best N95 mask with a perfect face seal DOES NOT PROTECT against virus and bacteria sized particles like the Coronavirus.",
-    "img1"=>"$url/assets/img/n95mostpenetrating.png",
-    "imgalt1"=>"$url/assets/img/n95mostpenetrating.png",
+    "img1"=>"assets/img/n95mostpenetrating.png",
+    "imgalt1"=>"assets/img/n95mostpenetrating.png",
 
     ),
 
@@ -94,8 +94,8 @@ $article = array(
     "title2"=>"Protection Rating",
     "text1"=>"The trusted protection rating for the N95 is clearly an overestimate.",
     "text2"=>"While these masks stop dust particles pretty well, they provide almost no protection against the Coronavirus.",
-    "img1"=>"$url/assets/img/article1n95conclusionnobenefit5.png",
-    "imgalt1"=>"$url/assets/img/article1n95conclusionnobenefit5.png",
+    "img1"=>"assets/img/article1n95conclusionnobenefit5.png",
+    "imgalt1"=>"assets/img/article1n95conclusionnobenefit5.png",
 
 
 
@@ -118,8 +118,8 @@ $article = array(
         "title2"=>"Mentioned TWICE in One Study!",
         "text1"=>"You may be shocked to learn that industrial hygienists and scientists have known for a long time that virus and bacteria sized particles go right through the N95 mask.",
         "text2"=>"This means the very best mask we have provides no protection at all from the Coronavirus.",
-        "img1"=>"$url/assets/img/article1n95conclusionnobenefit4.png",
-        "imgalt1"=>"$url/assets/img/article1n95conclusionnobenefit4.png",
+        "img1"=>"assets/img/article1n95conclusionnobenefit4.png",
+        "imgalt1"=>"assets/img/article1n95conclusionnobenefit4.png",
 
     ),
 
@@ -137,8 +137,8 @@ $article = array(
         "title2"=>"Same Mediocre Protection",
         "text1"=>"This study notes that exhale valves do not interfere or assist with \"protection.\"",
         "text2"=>"But, the N95 mask doesn't offer protection against bacteria and viruses.",
-        "img1"=>"$url/assets/img/article1n95conclusionnobenefit3.png",
-        "imgalt1"=>"$url/assets/img/article1n95conclusionnobenefit3.png",
+        "img1"=>"assets/img/article1n95conclusionnobenefit3.png",
+        "imgalt1"=>"assets/img/article1n95conclusionnobenefit3.png",
 
 
 
@@ -160,8 +160,8 @@ $article = array(
         "title2"=>"8-12 times WORSE Than N95",
         "text1"=>"Surgical masks with a non-existent seal are useless at preventing transmission of a contagion. They offer 8-12 times less protection than the N95 mask.",
         "text2"=>"But the N95 mask DOES NOT STOP the Coronavirus. That means the comparison is worthless and ALL mask wearing is meaningless. ",
-        "img1"=>"$url/assets/img/article1n95conclusionnobenefit11.png",
-        "imgalt1"=>"$url/assets/img/article1n95conclusionnobenefit11.png",
+        "img1"=>"assets/img/article1n95conclusionnobenefit11.png",
+        "imgalt1"=>"assets/img/article1n95conclusionnobenefit11.png",
 
     ),
 
@@ -181,9 +181,9 @@ $article = array(
         "title1"=>"Read The Complete Study",
         "title2"=>"Compare The Claims With The Evidence!",
         "text1"=>"This study was performed by the trusted scientific, academic and elite government scientists. The claims differ from the findings. That is why you need to read the entire thing for yourself.",
-        "text2"=>"<a href=\"$url/assets/docs/n95oshastudy2007.pdf\" target=\"_blank\" style=\"text-decoration: none\">Here</a> is a link to the study used to create the above talking points. Win The Next Mask Debate Armed With The Facts!",
-        "img1"=>"$url/assets/img/maskdebate.png",
-        "imgalt1"=>"$url/assets/img/maskdebate.png",
+        "text2"=>"<a href=\"assets/docs/n95oshastudy2007.pdf\" target=\"_blank\" style=\"text-decoration: none\">Here</a> is a link to the study used to create the above talking points. Win The Next Mask Debate Armed With The Facts!",
+        "img1"=>"assets/img/maskdebate.png",
+        "imgalt1"=>"assets/img/maskdebate.png",
 
     ),
 
@@ -202,10 +202,10 @@ $article = array(
 
         "title1"=>"Viral Shedding NOT Observed:",
         "title2"=>"A Major Limitation Study Suggests",
-        "text1"=>"This <a href=\"$url/assets/docs/surgicalmaskefficacynaturemedicine.pdf\" target=\"_blank\" style=\"text-decoration: none\">next study</a> has been circulated as proof that surgical masks prevent the spread of Coronavirus.",
+        "text1"=>"This <a href=\"assets/docs/surgicalmaskefficacynaturemedicine.pdf\" target=\"_blank\" style=\"text-decoration: none\">next study</a> has been circulated as proof that surgical masks prevent the spread of Coronavirus.",
         "text2"=>"But the scientists had a serious problems detecting even the slightest viral particles from sick people who were breathing and coughing directly into a collection device for 30 minutes at a time.",
-        "img1"=>"$url/assets/img/article1n95conclusionnobenefit6.png",
-        "imgalt1"=>"$url/assets/img/article1n95conclusionnobenefit6.png",
+        "img1"=>"assets/img/article1n95conclusionnobenefit6.png",
+        "imgalt1"=>"assets/img/article1n95conclusionnobenefit6.png",
 
     ),
 

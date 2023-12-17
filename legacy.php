@@ -1,8 +1,8 @@
 <?php
 
-include 'ip.php';
+//include 'ip.php';
 
-$url = "http://$_SERVER[HTTP_HOST]";
+$url = "http://$_SERVER[HTTP_HOST]/apps/nomaskpa";
 
 ?>
 
@@ -20,7 +20,7 @@ $url = "http://$_SERVER[HTTP_HOST]";
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
 
 
-    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
 
     <style>
@@ -64,10 +64,10 @@ $url = "http://$_SERVER[HTTP_HOST]";
     <div id="toppity"></div>
     <nav class="navbar navbar-expand-md fixed-top navbar-light" style="background-color: #e3f2fd;">
         <a class="navbar-brand non-mobile" href="#">
-            <img src="/assets/img/nomaskpalogo%20.png" width="225" alt="" loading="lazy">
+            <img src="assets/img/nomaskpalogo%20.png" width="225" alt="" loading="lazy">
         </a>
         <a class="navbar-brand mobile" href="#">
-            <img src="/assets/img/nomaskpalogo%20.png" width="180" alt="" loading="lazy">
+            <img src="assets/img/nomaskpalogo%20.png" width="180" alt="" loading="lazy">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -243,7 +243,7 @@ $url = "http://$_SERVER[HTTP_HOST]";
                 <h2 class="featurette-heading" >Why Masks Don't Work: <span class="text-muted">Let's Look At What The Scientists Say!</span></h2><br>
                 <br>
                 <br>
-                <div class="mobile"><img src="/assets/img/maskdebate.png" style="border: 3px solid; border-color: grey;" alt="" width="405"></div>
+                <div class="mobile"><img src="assets/img/maskdebate.png" style="border: 3px solid; border-color: grey;" alt="" width="405"></div>
                 <br>
                 <p class="lead"><b><b><i>Wearing a mask does not provide any benefit to the wearer or those around him.</i></b></b> This article has been written after an investigation of several scientific studies on the use of masks. This article will show you what the scientists are saying in the scholarly journals about how poorly masks perform in experiments. </p>
 
@@ -321,8 +321,8 @@ $url = "http://$_SERVER[HTTP_HOST]";
                 <br>
                 <div class="mobile quote"><img src="assets/img/nobenefit5.png" width="405"  style="border: 3px solid; border-color: grey;"><br><br></div>
 
-                <p class="lead"><b><b><i>It is the public's poor understanding of the facts that has allowed universal masking to take root.</i></b></b> Here is an <a target="_blank" style="text-decoration: none" href="/assets/docs/www_rcreader_com_commentary_masks_dont_work_covid_a_review_o.pdf"> actual physicist </a> that says it would be really odd if masks did help given what we already know to be true about viruses.</p>
-                <p class="lead"><b>To destroy the myth that masks are beneficial, you must seek truth from facts. It is all as clear as day. Masks are useless.</b> <a  target="_blank" style="text-decoration: none" href="/assets/docs/journal.pone.0029744.PDF">Here</a> , <a  target="_blank" style="text-decoration: none" href="/assets/docs/003335491012500206.pdf">Here</a> and <a  target="_blank" style="text-decoration: none" href="assets/docs/annrcse01509-0009.pdf">Here</a> are additional studies, we didn't even talk about. The N95 study is <a href="assets/docs/n95oshastudy2007.pdf" target="_blank" style="text-decoration: none"> here</a>.  The surgical mask study is <a href="assets/docs/surgicalmaskefficacynaturemedicine.pdf" target="_blank" style="text-decoration: none"> here</a>. </p>
+                <p class="lead"><b><b><i>It is the public's poor understanding of the facts that has allowed universal masking to take root.</i></b></b> Here is an <a target="_blank" style="text-decoration: none" href="assets/docs/www_rcreader_com_commentary_masks_dont_work_covid_a_review_o.pdf"> actual physicist </a> that says it would be really odd if masks did help given what we already know to be true about viruses.</p>
+                <p class="lead"><b>To destroy the myth that masks are beneficial, you must seek truth from facts. It is all as clear as day. Masks are useless.</b> <a  target="_blank" style="text-decoration: none" href="assets/docs/journal.pone.0029744.PDF">Here</a> , <a  target="_blank" style="text-decoration: none" href="assets/docs/003335491012500206.pdf">Here</a> and <a  target="_blank" style="text-decoration: none" href="assets/docs/annrcse01509-0009.pdf">Here</a> are additional studies, we didn't even talk about. The N95 study is <a href="assets/docs/n95oshastudy2007.pdf" target="_blank" style="text-decoration: none"> here</a>.  The surgical mask study is <a href="assets/docs/surgicalmaskefficacynaturemedicine.pdf" target="_blank" style="text-decoration: none"> here</a>. </p>
 
 
             </div>
@@ -337,7 +337,7 @@ $url = "http://$_SERVER[HTTP_HOST]";
                 <br>
                 <br>
                 <br>
-                <div class="quote"><a  target="_blank" style="text-decoration: none" href="/assets/img/article1n95conclusionnobenefit.png"><img src="/assets/img/article1n95conclusionnobenefit.png" style="border: 3px solid; border-color: grey;" alt="" width="500"></a></div>
+                <div class="quote"><a  target="_blank" style="text-decoration: none" href="assets/img/article1n95conclusionnobenefit.png"><img src="assets/img/article1n95conclusionnobenefit.png" style="border: 3px solid; border-color: grey;" alt="" width="500"></a></div>
                 <br>
                 <br>
                 <br>
@@ -346,7 +346,7 @@ $url = "http://$_SERVER[HTTP_HOST]";
                 <br>
                 <br>
                 <br>
-                <div class="quote"><a  target="_blank" style="text-decoration: none" href="/assets/img/article1n95conclusionnobenefit2.png"><img src="/assets/img/article1n95conclusionnobenefit2.png" style="border: 3px solid; border-color: grey;" alt="" width="500"></a></div>
+                <div class="quote"><a  target="_blank" style="text-decoration: none" href="assets/img/article1n95conclusionnobenefit2.png"><img src="assets/img/article1n95conclusionnobenefit2.png" style="border: 3px solid; border-color: grey;" alt="" width="500"></a></div>
                 <br>
                 <br>
                 <br>
@@ -355,7 +355,7 @@ $url = "http://$_SERVER[HTTP_HOST]";
                 <br>
                 <br>
                 <br>
-                <div class="quote"><a  target="_blank" style="text-decoration: none" href="/assets/img/article1n95conclusionnobenefit3.png"><img src="/assets/img/article1n95conclusionnobenefit3.png" style="border: 3px solid; border-color: grey;" alt="" width="500"></a></div>
+                <div class="quote"><a  target="_blank" style="text-decoration: none" href="assets/img/article1n95conclusionnobenefit3.png"><img src="assets/img/article1n95conclusionnobenefit3.png" style="border: 3px solid; border-color: grey;" alt="" width="500"></a></div>
                 <br>
                 <br>
                 <br>
@@ -363,7 +363,7 @@ $url = "http://$_SERVER[HTTP_HOST]";
                 <br>
                 <br>
                 <br>
-                <div class="quote"><a  target="_blank" style="text-decoration: none" href="/assets/img/article1n95conclusionnobenefit4.png"><img src="/assets/img/article1n95conclusionnobenefit4.png" style="border: 3px solid; border-color: grey;" alt="" width="500"></a></div>
+                <div class="quote"><a  target="_blank" style="text-decoration: none" href="assets/img/article1n95conclusionnobenefit4.png"><img src="assets/img/article1n95conclusionnobenefit4.png" style="border: 3px solid; border-color: grey;" alt="" width="500"></a></div>
                 <br>
                 <br>
                 <br>
@@ -372,7 +372,7 @@ $url = "http://$_SERVER[HTTP_HOST]";
                 <br>
                 <br>
                 <br>
-                <div class="quote"><a  target="_blank" style="text-decoration: none" href="/assets/img/article1n95conclusionnobenefit5.png"><img src="/assets/img/article1n95conclusionnobenefit5.png" style="border: 3px solid; border-color: grey;" alt="" width="500"></a></div>
+                <div class="quote"><a  target="_blank" style="text-decoration: none" href="assets/img/article1n95conclusionnobenefit5.png"><img src="assets/img/article1n95conclusionnobenefit5.png" style="border: 3px solid; border-color: grey;" alt="" width="500"></a></div>
                 <br>
                 <br>
                 <br>
@@ -381,7 +381,7 @@ $url = "http://$_SERVER[HTTP_HOST]";
                 <br>
                 <br>
                 <br>
-                <div class="quote"><a  target="_blank" style="text-decoration: none" href="/assets/img/article1n95conclusionnobenefit6.png"><img src="/assets/img/article1n95conclusionnobenefit6.png" style="border: 3px solid; border-color: grey;" alt="" width="500"></a></div>
+                <div class="quote"><a  target="_blank" style="text-decoration: none" href="assets/img/article1n95conclusionnobenefit6.png"><img src="assets/img/article1n95conclusionnobenefit6.png" style="border: 3px solid; border-color: grey;" alt="" width="500"></a></div>
                 <br>
                 <br>
                 <br>
@@ -390,7 +390,7 @@ $url = "http://$_SERVER[HTTP_HOST]";
                 <br>
                 <br>
                 <br>
-                <div class="quote"><a  target="_blank" style="text-decoration: none" href="/assets/img/article1n95conclusionnobenefit7.png"><img src="/assets/img/article1n95conclusionnobenefit7.png" style="border: 3px solid; border-color: grey;" alt="" width="500"></a></div>
+                <div class="quote"><a  target="_blank" style="text-decoration: none" href="assets/img/article1n95conclusionnobenefit7.png"><img src="assets/img/article1n95conclusionnobenefit7.png" style="border: 3px solid; border-color: grey;" alt="" width="500"></a></div>
                 <br>
                 <br>
                 <br>
@@ -399,7 +399,7 @@ $url = "http://$_SERVER[HTTP_HOST]";
                 <br>
                 <br>
                 <br>
-                <div class="quote"><a  target="_blank" style="text-decoration: none" href="/assets/img/article1n95conclusionnobenefit8.png"><img src="/assets/img/article1n95conclusionnobenefit8.png" style="border: 3px solid; border-color: grey;" alt="" width="500"></a></div>
+                <div class="quote"><a  target="_blank" style="text-decoration: none" href="assets/img/article1n95conclusionnobenefit8.png"><img src="assets/img/article1n95conclusionnobenefit8.png" style="border: 3px solid; border-color: grey;" alt="" width="500"></a></div>
                 <br>
                 <br>
                 <br>
@@ -408,7 +408,7 @@ $url = "http://$_SERVER[HTTP_HOST]";
                 <br>
                 <br>
                 <br>
-                <div class="quote"><a  target="_blank" style="text-decoration: none" href="/assets/img/article1n95conclusionnobenefit9.png"><img src="/assets/img/article1n95conclusionnobenefit9.png" style="border: 3px solid; border-color: grey;" alt="" width="500"></a></div>
+                <div class="quote"><a  target="_blank" style="text-decoration: none" href="assets/img/article1n95conclusionnobenefit9.png"><img src="assets/img/article1n95conclusionnobenefit9.png" style="border: 3px solid; border-color: grey;" alt="" width="500"></a></div>
                 <br>
                 <br>
                 <br>
@@ -417,7 +417,7 @@ $url = "http://$_SERVER[HTTP_HOST]";
                 <br>
                 <br>
                 <br>
-                <div class="quote"><a  target="_blank" style="text-decoration: none" href="/assets/img/article1n95conclusionnobenefit10.png"><img src="/assets/img/article1n95conclusionnobenefit10.png" style="border: 3px solid; border-color: grey;" alt="" width="500"></a></div>
+                <div class="quote"><a  target="_blank" style="text-decoration: none" href="assets/img/article1n95conclusionnobenefit10.png"><img src="assets/img/article1n95conclusionnobenefit10.png" style="border: 3px solid; border-color: grey;" alt="" width="500"></a></div>
                 <br>
                 <br>
                 <br>
@@ -435,7 +435,7 @@ $url = "http://$_SERVER[HTTP_HOST]";
                 <br>
                 <br>
                 <br>
-                <div class="quote"><img src="/assets/img/nobenefit5.png" style="border: 3px solid; border-color: grey;" alt="" width="500"></div>
+                <div class="quote"><img src="assets/img/nobenefit5.png" style="border: 3px solid; border-color: grey;" alt="" width="500"></div>
                 <br>
                 <br>
                 <br>
@@ -555,22 +555,22 @@ $url = "http://$_SERVER[HTTP_HOST]";
                 <div class="mobile"><a style="text-decoration: none" href="https://jordan-henderson.pixels.com/featured/sanity-her-son-and-the-credulous-jordan-henderson.html" target="_blank"><img src="assets/img/sanity-her-son-and-the-credulous-jordan-henderson.jpg" width="350" style="border: 3px solid; border-color: grey;"></a><br><br></div>
                 <p class="lead"><b><i>It is time for a sober, sane, breath of unmasked, unafraid air. The medical fascists and their counterparts within governance and media have manipulated the number of cases, infections and deaths to fool us into yielding willingly as they have destroyed our world right in front of our eyes. It is time that we use their numbers to correct the errors and end the bewitchment. There is nothing to be afraid of and I am going to prove it.</i></b></p><br><p class="lead"> While other parts of this website focus of the totality of the medical fascism at work today. Here, we are going to laser focus on the numbers from PA alone and will add some broad strokes at the end to complete the idea. <br><br>
                     The official number for the amount of deaths related to SARS-COV-2 is reported as being from results of the RT-qPCR test which the inventor, Karey Mullis, claims cannot prove the existence of a virus. <a style="text-decoration: none" target="_blank" href="#test">See my article on the RT-qPCR method here</a>.  Because of the problems with the PCR test, all of the diagnoses were based on symptoms, not test results, per the CDC guidance. If you had a fever, cough or pneumonia like symptoms you were considered Covid-19 positive despite positive or negative results from the actual test. Any death due to pneumonia was labeled a Covid-19 death as a result. See the actual CDC documents given to healthcare providers as a diagnostic tool <a style="text-decoration: none" target="_blank" href="assets/docs/Factsheet-for-Healthcare-Providers-2019-nCoV.pdf"> here</a>.</p><br>
-                <div class="mobile"><a href="/assets/img/deathchart.png" target="_blank" style="text-decoration: none"><img src="assets/img/deathchart.png" width="350" style="border: 3px solid; border-color: grey;"></a><br><br></div>
-                <p class="lead"> But, if you believe that the death numbers are accurate despite the inaccuracy of the method used for calculation, then you should accept the percentages those numbers create as a result of simple easy math.<br><br> For example, the population of Pennsylvania is roughly 12,800,000 souls according to the US Census and easily verifiable <a style="text-decoration: none" href="/assets/docs/www_census_gov_quickfacts_PA.pdf" target="_blank"> here</a>. <b><b>In addition the total number of deaths attributed to SARS-COV-2 is around 8100.</b></b> This number can be verified as of the writing of this story <a style="text-decoration: none" href="/assets/img/deathspabigpicture.png" target="_blank"> here</a>. </p>
-                <div class="mobile"><a href="/assets/img/totaldeathpercentage.png" target="_blank" style="text-decoration: none"><img src="assets/img/totaldeathpercentage.png" width="350" style="border: 3px solid; border-color: grey;"></a><br><br></div>
+                <div class="mobile"><a href="assets/img/deathchart.png" target="_blank" style="text-decoration: none"><img src="assets/img/deathchart.png" width="350" style="border: 3px solid; border-color: grey;"></a><br><br></div>
+                <p class="lead"> But, if you believe that the death numbers are accurate despite the inaccuracy of the method used for calculation, then you should accept the percentages those numbers create as a result of simple easy math.<br><br> For example, the population of Pennsylvania is roughly 12,800,000 souls according to the US Census and easily verifiable <a style="text-decoration: none" href="assets/docs/www_census_gov_quickfacts_PA.pdf" target="_blank"> here</a>. <b><b>In addition the total number of deaths attributed to SARS-COV-2 is around 8100.</b></b> This number can be verified as of the writing of this story <a style="text-decoration: none" href="assets/img/deathspabigpicture.png" target="_blank"> here</a>. </p>
+                <div class="mobile"><a href="assets/img/totaldeathpercentage.png" target="_blank" style="text-decoration: none"><img src="assets/img/totaldeathpercentage.png" width="350" style="border: 3px solid; border-color: grey;"></a><br><br></div>
                 <p class="lead"> If you just have those two numbers and agree that they are correct, the population and the number of deaths then you can generate a percentage. Let's call it the percentage of those who died vs. those who are still living. It seems like that would be a percentage that matters to the living or at least I would hope. <br><br>When you divide the number of deaths by the population total, you get the total death rate percentage. It is a very small number seen in image three on the side or above. <b>The total death rate percentage is <b><u>6.328 ten thousandths of 1 percent.</u></b></b> That percentage is insignificant to a population of almost 13 million and would never create a scare.  But, the math gets even more surreal.</p>
                 <div class="mobile"><br><br>
-                    <a href="/assets/img/under60deathpercentage.png" target="_blank" style="text-decoration: none"><img src="assets/img/under60deathpercentage.png" width="350" style="border: 3px solid; border-color: grey;"></a><br><br></div>
+                    <a href="assets/img/under60deathpercentage.png" target="_blank" style="text-decoration: none"><img src="assets/img/under60deathpercentage.png" width="350" style="border: 3px solid; border-color: grey;"></a><br><br></div>
                 <p class="lead">Now let us look at the death rate percentage for those under 60 years old. Remember, the first percentage is the total death rate percentage which includes everyone young and old. But this next number will be the percentage of residents of PA under the age of 60 that have died in this pandemic. <br><br>This number is especially hard to say. The closer the number get to zero, the harder it is to articulate and envision in the mind. <br><br>In the second calculator image, you will see a number so small that  it is easiest to say it as <b><b>less than 1/2 of <u>1 millionth of 1 percent.</u></b></b> That means that <b><u>almost no one under sixty years of age that lives in Pennsylvania has died from the pandemic</u></b>. <br><br>Here are some staggering statistics: The number of deaths for those over 90 years of age is 2100 deaths. That's means, 25 percent of all the deaths were in people over 90 years old. Another 30 percent were between 80-90 years old. Which means that almost 60% of all deaths allegedly attributed to this current pandemic were over the age of 80. The life expectancy in this state is 78.5 years. More than 60% of deaths were beyond that age. Over 70% of deaths occurred in nursing homes.</p> <br>
-                <div class="mobile quote"><a href="/assets/img/deathrategraph1988.png" target="_blank" style="text-decoration: none"><img src="/assets/img/deathrategraph1988.png" width="350" style="border: 3px solid; border-color: grey;"></a><br><br></div>
-                <div class="mobile quote"><a href="/assets/img/deathrategraph1.png" target="_blank" style="text-decoration: none"><img src="/assets/img/deathrategraph1.png" width="350" style="border: 3px solid; border-color: grey;"></a><br><br></div>
+                <div class="mobile quote"><a href="assets/img/deathrategraph1988.png" target="_blank" style="text-decoration: none"><img src="assets/img/deathrategraph1988.png" width="350" style="border: 3px solid; border-color: grey;"></a><br><br></div>
+                <div class="mobile quote"><a href="assets/img/deathrategraph1.png" target="_blank" style="text-decoration: none"><img src="assets/img/deathrategraph1.png" width="350" style="border: 3px solid; border-color: grey;"></a><br><br></div>
 
-                <p class="lead">Now, set the cases, fear, propaganda and rhetoric aside for a moment. What if I was to tell you that the death rate this year for the entire US with a pandemic is lower than the death rate of 1988. <a href="/assets/docs/U.S.%20Death%20Rate%201950-2020%20_%20MacroTrends.pdf" target="_blank" style="text-decoration: none"> See it for yourself here</a> or look at the graphs on the side or above. Were they having a pandemic in 1988 worse than this one? <b>Or, have they simply weaponized fear, confusion and erroneous statistics to fool us all into being scared of our own shadows.</b><br><br> Do you think with so few actual deaths even when accepting their numbers and methodology that the governor and his health secretary had the legal justification to destroy our world? Further, do you think they are ever going to return that broken world back to us willingly?</p><div class="mobile quote"><br><br>
+                <p class="lead">Now, set the cases, fear, propaganda and rhetoric aside for a moment. What if I was to tell you that the death rate this year for the entire US with a pandemic is lower than the death rate of 1988. <a href="assets/docs/U.S.%20Death%20Rate%201950-2020%20_%20MacroTrends.pdf" target="_blank" style="text-decoration: none"> See it for yourself here</a> or look at the graphs on the side or above. Were they having a pandemic in 1988 worse than this one? <b>Or, have they simply weaponized fear, confusion and erroneous statistics to fool us all into being scared of our own shadows.</b><br><br> Do you think with so few actual deaths even when accepting their numbers and methodology that the governor and his health secretary had the legal justification to destroy our world? Further, do you think they are ever going to return that broken world back to us willingly?</p><div class="mobile quote"><br><br>
 
-                    <a href="/assets/docs/Preliminary%20Estimates%20of%20Mortality%20and%20Years%20of%20Life%20Lost%20Associated%20with%20the%202009%20A_H1N1%20Pandemic%20in%20the%20US%20and%20Comparison%20with%20Past%20Influenza%20Seasons.pdf" target="_blank" style="text-decoration: none"><img src="/assets/img/seasonaldeathrate.png" width="430" style="border: 3px solid; border-color: grey;"></a><br><br></div>
+                    <a href="assets/docs/Preliminary%20Estimates%20of%20Mortality%20and%20Years%20of%20Life%20Lost%20Associated%20with%20the%202009%20A_H1N1%20Pandemic%20in%20the%20US%20and%20Comparison%20with%20Past%20Influenza%20Seasons.pdf" target="_blank" style="text-decoration: none"><img src="assets/img/seasonaldeathrate.png" width="430" style="border: 3px solid; border-color: grey;"></a><br><br></div>
 
-                <p class="lead"> <b>There is a seasonality of respiratory related deaths that happens predictably every year.</b> See the sixth image at the left or above and <a href="/assets/docs/Preliminary%20Estimates%20of%20Mortality%20and%20Years%20of%20Life%20Lost%20Associated%20with%20the%202009%20A_H1N1%20Pandemic%20in%20the%20US%20and%20Comparison%20with%20Past%20Influenza%20Seasons.pdf" target="_blank" style="text-decoration: none"> read the NIH study here </a>. The death rate is unchanged this year despite a pandemic. How is that possible? Again, <a href="/assets/docs/U.S.%20Death%20Rate%201950-2020%20_%20MacroTrends.pdf" target="_blank" style="text-decoration: none"> see it for yourself</a>. </p><div class="mobile quote"><br><br>
-                    <a href="/assets/docs/virustransmissiondependentonhumidity.pdf" target="_blank" style="text-decoration: none"><img src="/assets/img/fluvirusisseasonal.png" width="430" style="border: 3px solid; border-color: grey;"></a><br><br></div>
+                <p class="lead"> <b>There is a seasonality of respiratory related deaths that happens predictably every year.</b> See the sixth image at the left or above and <a href="assets/docs/Preliminary%20Estimates%20of%20Mortality%20and%20Years%20of%20Life%20Lost%20Associated%20with%20the%202009%20A_H1N1%20Pandemic%20in%20the%20US%20and%20Comparison%20with%20Past%20Influenza%20Seasons.pdf" target="_blank" style="text-decoration: none"> read the NIH study here </a>. The death rate is unchanged this year despite a pandemic. How is that possible? Again, <a href="assets/docs/U.S.%20Death%20Rate%201950-2020%20_%20MacroTrends.pdf" target="_blank" style="text-decoration: none"> see it for yourself</a>. </p><div class="mobile quote"><br><br>
+                    <a href="assets/docs/virustransmissiondependentonhumidity.pdf" target="_blank" style="text-decoration: none"><img src="assets/img/fluvirusisseasonal.png" width="430" style="border: 3px solid; border-color: grey;"></a><br><br></div>
                 <p class="lead"> We all know that the powers that be will likely double-down this next flu season with more fear, propaganda, misinformation and senseless <i>lockdowns</i>. The best thing that we all can do is to free ourselves from fear by seeking truth from facts. Become a sense-maker and start making sense of the senseless going on around you.</p><div class="mobile"><br><br>
                     <a style="text-decoration: none" href="https://jordan-henderson.pixels.com/featured/sanity-her-son-and-the-credulous-jordan-henderson.html" target="_blank"><img src="assets/img/sanity-her-son-and-the-credulous-jordan-henderson.jpg" width="350" style="border: 3px solid; border-color: grey;"></a><br><br></div>
                 <p class="lead"> <b>Look at the actual numbers and determine for yourself if you should be <b>living in fear</b>. Then find your <b>action point</b> by <b>sharing</b> this information with as many people as possible and by <b>living <i>visibly</i> <u>unafraid</u> in a world lost in fear.</b></b> The artist, Jordan Henderson, has graciously allowed me to display his epic and unparalleled work of art with this article. It is appropriately named : Sanity, Her Son, And The Credulous. This portrait of a mom and son refusing to partake in the epidemic of fear is a fountain of water to my soul. May it inspire you too. You can support Jordan and purchase Sanity, Her Son and The Credulous <a style="text-decoration: none" href="https://jordan-henderson.pixels.com/featured/sanity-her-son-and-the-credulous-jordan-henderson.html" target="_blank"> here </a>.</p>
@@ -613,22 +613,22 @@ $url = "http://$_SERVER[HTTP_HOST]";
                 <br>
                 <br>
                 <br>
-                <div class="quote"><a href="/assets/img/deathrategraph1988.png" target="_blank" style="text-decoration: none"><img src="/assets/img/deathrategraph1988.png" width="432" style="border: 3px solid; border-color: grey;"></a></div>
+                <div class="quote"><a href="assets/img/deathrategraph1988.png" target="_blank" style="text-decoration: none"><img src="assets/img/deathrategraph1988.png" width="432" style="border: 3px solid; border-color: grey;"></a></div>
                 <br>
                 <br>
                 <br>
                 <br>
-                <div class="quote"><a href="/assets/img/deathrategraph1.png" target="_blank" style="text-decoration: none"><img src="/assets/img/deathrategraph1.png" width="432" style="border: 3px solid; border-color: grey;"></a></div>
+                <div class="quote"><a href="assets/img/deathrategraph1.png" target="_blank" style="text-decoration: none"><img src="assets/img/deathrategraph1.png" width="432" style="border: 3px solid; border-color: grey;"></a></div>
                 <br>
                 <br>
                 <br>
                 <br>
-                <div class="quote"><a href="/assets/docs/Preliminary%20Estimates%20of%20Mortality%20and%20Years%20of%20Life%20Lost%20Associated%20with%20the%202009%20A_H1N1%20Pandemic%20in%20the%20US%20and%20Comparison%20with%20Past%20Influenza%20Seasons.pdf" target="_blank" style="text-decoration: none"><img src="/assets/img/seasonaldeathrate.png" width="432" style="border: 3px solid; border-color: grey;"></a></div>
+                <div class="quote"><a href="assets/docs/Preliminary%20Estimates%20of%20Mortality%20and%20Years%20of%20Life%20Lost%20Associated%20with%20the%202009%20A_H1N1%20Pandemic%20in%20the%20US%20and%20Comparison%20with%20Past%20Influenza%20Seasons.pdf" target="_blank" style="text-decoration: none"><img src="assets/img/seasonaldeathrate.png" width="432" style="border: 3px solid; border-color: grey;"></a></div>
                 <br>
                 <br>
                 <br>
                 <br>
-                <div class="quote"><a href="/assets/docs/virustransmissiondependentonhumidity.pdf" target="_blank" style="text-decoration: none"><img src="/assets/img/fluvirusisseasonal.png" width="432" style="border: 3px solid; border-color: grey;"></a></div>
+                <div class="quote"><a href="assets/docs/virustransmissiondependentonhumidity.pdf" target="_blank" style="text-decoration: none"><img src="assets/img/fluvirusisseasonal.png" width="432" style="border: 3px solid; border-color: grey;"></a></div>
                 <br>
                 <br>
                 <br>
@@ -644,44 +644,44 @@ $url = "http://$_SERVER[HTTP_HOST]";
         <div  class="row featurette"  >
             <div class="col-md-7 order-md-2" >
                 <h2 class="featurette-heading" >Yes, Surgeons Have Proven <span class="text-muted">That You Shouldn't Even Wear A Mask In The Operating Room!</span></h2><br><br>
-                <div class="mobile"><a href="/assets/img/surgeonnomaskjpg.jpg" target="_blank" style="text-decoration: none"><img src="assets/img/surgeonnomaskjpg.jpg" width="350" style="border: 3px solid; border-color: grey;"></a><br><br></div>
+                <div class="mobile"><a href="assets/img/surgeonnomaskjpg.jpg" target="_blank" style="text-decoration: none"><img src="assets/img/surgeonnomaskjpg.jpg" width="350" style="border: 3px solid; border-color: grey;"></a><br><br></div>
                 <p class="lead"> Are you seriously trying to tell me that if a poor soul has his body sliced open for repair, that a surgeon shouldn't wear a mask while breathing into his exposed guts and viscera?</p>
                 <p class="lead"> Well, actually, yes.</p><br>
-                <div class="mobile quote"><br><a target="_blank" style="text-decoration: none" href="assets/docs/annrcse01509-0009.pdf"><img src="/assets/img/nobenefit5.png" style="border: 3px solid; border-color: grey;" alt="" width="432"></a><br><br></div>
+                <div class="mobile quote"><br><a target="_blank" style="text-decoration: none" href="assets/docs/annrcse01509-0009.pdf"><img src="assets/img/nobenefit5.png" style="border: 3px solid; border-color: grey;" alt="" width="432"></a><br><br></div>
 
                 <p class="lead">The scientific data from multiple research studies including the one cited here involving 3000 surgeries <b><b>indicates that mask wearing has <u>no effect.</u></b></b> This study indicates that not wearing a mask in the operating theatre may reduce the number of post operative infections and be more beneficial than wearing a mask.</p><br>
-                <div class="mobile quote"><a href="/assets/docs/gorantunevallsurgeonmaskdonthelp1991.pdf" target="_blank" style="text-decoration: none"><img src="assets/img/surgeonsdontwearmasks.png" width="432" style="border: 3px solid; border-color: grey;"></a><br><br></div>
+                <div class="mobile quote"><a href="assets/docs/gorantunevallsurgeonmaskdonthelp1991.pdf" target="_blank" style="text-decoration: none"><img src="assets/img/surgeonsdontwearmasks.png" width="432" style="border: 3px solid; border-color: grey;"></a><br><br></div>
                 <p class="lead">Yes, I am saying that <b><b>wearing a mask even in a surgical setting could be harmful</b></b> to the patient. Or, to put it another way, Wearing a mask in the surgical theatre appears to contribute somehow to more post operative infections.</p>
                 <p class="lead">These facts may cause serious cognitive dissonance. They certainly did for us. To get a better understanding of why masks don't work take a look at our easy explanation. In an era of confusion sometimes the simplest answer is best. <b><b>We explain why masks make things worse right <a style="text-decoration: none;" href="#fifthgrader">here</a></b></b>.</p>
                 <p class="lead">Before rejecting this idea as is so easy to do, why not consider it for just a minute more. <b>These studies show that wearing a mask appears to increase the total number of post-op infections. Why not read the studies for yourself.</b></p>
-                <div class="mobile quote"><a href="/assets/docs/gorantunevallsurgeonmaskdonthelp1991.pdf" target="_blank" style="text-decoration: none"><img src="assets/img/table2surgeonsnoinfections.png" width="432" style="border: 3px solid; border-color: grey;"></a><br><br></div>
+                <div class="mobile quote"><a href="assets/docs/gorantunevallsurgeonmaskdonthelp1991.pdf" target="_blank" style="text-decoration: none"><img src="assets/img/table2surgeonsnoinfections.png" width="432" style="border: 3px solid; border-color: grey;"></a><br><br></div>
                 <p class="lead"> See how dumbfounded the researchers are when trying create cogent conclusions that match the data observed. All the while, they are grasping at anything to continue the consensus opinion that masking is beneficial in the clinical setting.</p>
-                <div class="mobile quote"><img src="/assets/img/followthecashcowmask.png" style="border: 3px solid; border-color: grey;" alt="" width="432"><br><br></div>
-                <p class="lead"> <b><b>Why are our medical authorities still trying to convince us that masking is good and helpful despite overwhelming evidence to the contrary?</b></b> <b>Read This Entire Study <a style="text-decoration: none" href="/assets/docs/gorantunevallsurgeonmaskdonthelp1991.pdf" target="_blank">Here</a>. Here's <a style="text-decoration: none" href="/assets/docs/annrcse01509-0009.pdf" target="_blank">another one, too </a>.</b></p>
+                <div class="mobile quote"><img src="assets/img/followthecashcowmask.png" style="border: 3px solid; border-color: grey;" alt="" width="432"><br><br></div>
+                <p class="lead"> <b><b>Why are our medical authorities still trying to convince us that masking is good and helpful despite overwhelming evidence to the contrary?</b></b> <b>Read This Entire Study <a style="text-decoration: none" href="assets/docs/gorantunevallsurgeonmaskdonthelp1991.pdf" target="_blank">Here</a>. Here's <a style="text-decoration: none" href="assets/docs/annrcse01509-0009.pdf" target="_blank">another one, too </a>.</b></p>
             </div>
             <div class="col-md-5 order-md-1 non-mobile">
                 <div class="non-mobile" style="padding-bottom: 120px;"></div>
-                <img src="/assets/img/surgeonnomaskjpg.jpg" width="432" style="border: 3px solid; border-color: grey;" alt="">
+                <img src="assets/img/surgeonnomaskjpg.jpg" width="432" style="border: 3px solid; border-color: grey;" alt="">
                 <br>
                 <br>
                 <br>
                 <br>
-                <div class="quote"><a target="_blank" style="text-decoration: none" href="assets/docs/annrcse01509-0009.pdf"><img src="/assets/img/nobenefit5.png" style="border: 3px solid; border-color: grey;" alt="" width="432"></a></div>
+                <div class="quote"><a target="_blank" style="text-decoration: none" href="assets/docs/annrcse01509-0009.pdf"><img src="assets/img/nobenefit5.png" style="border: 3px solid; border-color: grey;" alt="" width="432"></a></div>
                 <br>
                 <br>
                 <br>
                 <br>
-                <div class="quote"><a href="/assets/docs/gorantunevallsurgeonmaskdonthelp1991.pdf" target="_blank" style="text-decoration: none"><img src="/assets/img/surgeonsdontwearmasks.png" width="432" style="border: 3px solid; border-color: grey;" alt=""></a></div>
+                <div class="quote"><a href="assets/docs/gorantunevallsurgeonmaskdonthelp1991.pdf" target="_blank" style="text-decoration: none"><img src="assets/img/surgeonsdontwearmasks.png" width="432" style="border: 3px solid; border-color: grey;" alt=""></a></div>
                 <br>
                 <br>
                 <br>
                 <br>
-                <div class="quote"><a href="/assets/docs/gorantunevallsurgeonmaskdonthelp1991.pdf" target="_blank" style="text-decoration: none"><img src="assets/img/table2surgeonsnoinfections.png" width="432" style="border: 3px solid; border-color: grey;"></a></div>
+                <div class="quote"><a href="assets/docs/gorantunevallsurgeonmaskdonthelp1991.pdf" target="_blank" style="text-decoration: none"><img src="assets/img/table2surgeonsnoinfections.png" width="432" style="border: 3px solid; border-color: grey;"></a></div>
                 <br>
                 <br>
                 <br>
                 <br>
-                <div class="quote"><img src="/assets/img/followthecashcowmask.png" style="border: 3px solid; border-color: grey;" alt="" width="432"></div>
+                <div class="quote"><img src="assets/img/followthecashcowmask.png" style="border: 3px solid; border-color: grey;" alt="" width="432"></div>
             </div>
         </div>
 
@@ -697,7 +697,7 @@ $url = "http://$_SERVER[HTTP_HOST]";
                 <p class="lead">Let's take a look at how these research studies chronicle the use of masks on children and report that <b><b>children are more likely to experience serious symptoms of pain and distress</b></b>. The authors of the top cited study gleefully generalize the fact that half of the child aged participants claimed distress, pain or shortness of breath from wearing a mask. Half of the participant children claim that the mask is painful! Isn't that worth reporting?</p><br>
                 <div class="mobile quote"><img src="assets/img/childrenpain2.png" width="300"  style="border: 3px solid; border-color: grey;"><br><br></div>
 
-                <p class="lead"> In a similar study, it was observed that <b><b>75% of participants experienced discomfort</b></b> enough to report it during the study. In that second study, you find almost an identical summary that<b><b> children complain more frequently of pain when wearing a mask.</b></b> Read the entire text of both of these studies <a style="text-decoration: none" target="_blank" href="/assets/docs/1471-2334-12-26.pdf">here</a> and <a style="text-decoration: none" target="_blank" href="/assets/docs/journal.pone.0013998.PDF">here </a> The first study claims in its conclusion, the third citation, that <a style="text-decoration: none" target="_blank" href="assets/img/tolerable.png">masks are tolerable</a> which denies the fact that the masks were not tolerable in 38% of its participants including 50% of children and was said to cause children and adults to experience pain, shortness of breath among other problems.</p><br>
+                <p class="lead"> In a similar study, it was observed that <b><b>75% of participants experienced discomfort</b></b> enough to report it during the study. In that second study, you find almost an identical summary that<b><b> children complain more frequently of pain when wearing a mask.</b></b> Read the entire text of both of these studies <a style="text-decoration: none" target="_blank" href="assets/docs/1471-2334-12-26.pdf">here</a> and <a style="text-decoration: none" target="_blank" href="assets/docs/journal.pone.0013998.PDF">here </a> The first study claims in its conclusion, the third citation, that <a style="text-decoration: none" target="_blank" href="assets/img/tolerable.png">masks are tolerable</a> which denies the fact that the masks were not tolerable in 38% of its participants including 50% of children and was said to cause children and adults to experience pain, shortness of breath among other problems.</p><br>
                 <div class="mobile quote"><img src="assets/img/tolerable.png" width="300"  style="border: 3px solid; border-color: grey;"><br><br></div>
 
                 <p class="lead"> This is the opposite of tolerable and the opposite of scientific. Science means knowing. We know from this study that masks cause children pain. <b><b>Mask wearing is not tolerable.</b></b> That is the only thing that could be sanely concluded without further citation or analysis. Masks are not effective at preventing transmission of disease. <b>See our easy explanation of why masks don't work and how they can makes things worse <a style="text-decoration: none;" href="#fifthgrader">here</a></b>.</p>
@@ -735,12 +735,12 @@ $url = "http://$_SERVER[HTTP_HOST]";
                 <p class="lead">Oh yes, see the fourth image and second citation, followed by the image of the machines, proving that <b><b>neither machine gets the same reading for the particle count of the air in the room.</b></b> So, which machine is correct? Or, does it even matter? </p><p class="lead"> The word : inter-calibration is scientific jargon for : <i><b>these machines don't have the same readings but we can do simple math and find the difference despite the fact that we have no clue what the accurate reading is.</b></i> How can they trust these machines to tell them the correct amount of particles in a very important controlled experiment if <b><b>the machines cannot agree on the actual correct number of particles in the room.</b></b> </p>
                 <div class="mobile"><img src="assets/img/calibration.png" width="432"  style="border: 3px solid; border-color: grey;"><br><br></div>
 
-                <p class="lead"> Meanwhile, Numerous studies in clinical environments have proven over and over again <a target="_blank" style="text-decoration: none" href="/assets/docs/japanstudyhealthcareworkersnomaskbenefit.pdf">that the practice of wearing masks does not prevent or reduce infection rates</a>. In a couple studies focused on mask wearing in surgical settings, the wearing of a mask appears <a target="_blank" style="text-decoration: none" href="/assets/docs/annrcse01509-0009.pdf">to increase the infection rate</a>. Here is another example of <a target="_blank" style="text-decoration: none" href="https://link.springer.com/article/10.1007/BF01658736">more infections recorded when wearing the mask in a surgical setting </a>.</p>
+                <p class="lead"> Meanwhile, Numerous studies in clinical environments have proven over and over again <a target="_blank" style="text-decoration: none" href="assets/docs/japanstudyhealthcareworkersnomaskbenefit.pdf">that the practice of wearing masks does not prevent or reduce infection rates</a>. In a couple studies focused on mask wearing in surgical settings, the wearing of a mask appears <a target="_blank" style="text-decoration: none" href="assets/docs/annrcse01509-0009.pdf">to increase the infection rate</a>. Here is another example of <a target="_blank" style="text-decoration: none" href="https://link.springer.com/article/10.1007/BF01658736">more infections recorded when wearing the mask in a surgical setting </a>.</p>
                 <p class="lead"> Back to the current study, I am curious as to the state of the participant's health during this bizarre ritualistic double masking. What is her pulse, cognitive function and emotional state? What is the oxygen and carbon dioxide levels within the masked area? What is her blood oxygen saturation? Could she complete a simple cognitive ability test in the same way as she did before putting on the ridiculous costume? </p>
                 <div class="mobile"><img src="assets/img/calibrationimage.png" width="432"  style="border: 3px solid; border-color: grey;"><br><br></div>
                 <p class="lead">  No wonder they only did these tests for a minute at a time. These questions would lead honest researchers to determine what is the most important question. <b><b><i>Is this insane ritual causing measurable physiological harm to the participant?</i></b></b> If it is, then all of the perceived particle reduction benefits are completely negated. Why,.. you ask? Because she can't breathe and is in distress. </p>
                 <div class="mobile quote"><img src="assets/img/30percenteffective.png" width="432"  style="border: 3px solid; border-color: grey;"><br><br></div>
-                <p class="lead">  The conclusions show that the lose fitting mask even with a stocking covering the face too may only be 45% effective (30% + 15 %) in their controlled setting at reducing particulate matter in the masked area for about a minute. Though, that is only when you negate the fact that she exhales particles too and those pesky exhaled particles must be subtracted.</p><p class="lead"> <b><b> Would you be willing to be tortured like the woman in the images for just 30-45% effectiveness in a controlled environment less the particles that you exhale directly?</b></b> Most would say no to that if they were given the choice and the chance as it sounds insane. <b>This entire study is <a target="_blank" style="text-decoration: none" href="/assets/docs/2020.04.17.20069567v2.full.pdf"> here </a>. </b> </p>
+                <p class="lead">  The conclusions show that the lose fitting mask even with a stocking covering the face too may only be 45% effective (30% + 15 %) in their controlled setting at reducing particulate matter in the masked area for about a minute. Though, that is only when you negate the fact that she exhales particles too and those pesky exhaled particles must be subtracted.</p><p class="lead"> <b><b> Would you be willing to be tortured like the woman in the images for just 30-45% effectiveness in a controlled environment less the particles that you exhale directly?</b></b> Most would say no to that if they were given the choice and the chance as it sounds insane. <b>This entire study is <a target="_blank" style="text-decoration: none" href="assets/docs/2020.04.17.20069567v2.full.pdf"> here </a>. </b> </p>
             </div>
             <div class="col-md-5 order-md-1 non-mobile">
                 <div class="non-mobile" style="padding-bottom: 120px;"></div>
@@ -788,24 +788,24 @@ $url = "http://$_SERVER[HTTP_HOST]";
         <div  class="row featurette"  >
             <div class="col-md-7" >
                 <h2 class="featurette-heading" >A Perfect Pandemic <span class="text-muted">Has Been Sought By Research Scientists For Decades To Force Us All To Wear Masks!</span></h2><b></b><br>
-                <div class="mobile quote"><a target="_blank" style="text-decoration: none" href="/assets/docs/003335491012500206.pdf"><img src="/assets/img/nobenefit6.png" style="border: 3px solid; border-color: grey;" alt="" width="400"></a><br><br></div>
+                <div class="mobile quote"><a target="_blank" style="text-decoration: none" href="assets/docs/003335491012500206.pdf"><img src="assets/img/nobenefit6.png" style="border: 3px solid; border-color: grey;" alt="" width="400"></a><br><br></div>
                 <p class="lead">Why? To force masking and social distancing on the population against their will and against all the scientific data in their studies. If you think that scientific researchers want to ensure that the public is healthy and safe then you have missed the point. It is clear that they would prefer to omit from their conclusions any relevant facts and force us into bizarre superstitious rituals that do not foster public health vis-Ã -vis mask wearing and social distancing. </p>
-                <div class="mobile quote">  <a target="_blank" style="text-decoration: none" href="/assets/docs/003335491012500206.pdf"><img src="/assets/img/nobenefit7.png" style="border: 3px solid; border-color: grey;" alt="" width="400"></a><br><br></div>
+                <div class="mobile quote">  <a target="_blank" style="text-decoration: none" href="assets/docs/003335491012500206.pdf"><img src="assets/img/nobenefit7.png" style="border: 3px solid; border-color: grey;" alt="" width="400"></a><br><br></div>
                 <p class="lead"><b><b>Many published studies have eerily predicted in their conclusions that no one would accept wearing a mask or social distancing without a constant military-style threat of a dangerous looming pandemic.</b></b> Yes that is right, they have been planning today for decades. This study cited and imaged is from 10 years ago. </p>
-                <div class="mobile quote"><a target="_blank" style="text-decoration: none" href="/assets/docs/003335491012500206.pdf"><img src="/assets/img/nobenefit8.png" style="border: 3px solid; border-color: grey;" alt="" width="400"></a><br><br></div>
-                <p class="lead">But.... most studies, including this one cited, state that mask wearing <b><b>has almost no effect</b></b> and that they cannot even get the participants to wear the masks because of tolerance issues. This is what they call : <a id="poorcompliance" style="text-decoration: none" href="/assets/img/poorcompliance.png" target="_blank">poor compliance.</a> How can they possibly conclude that mask wearing is promising when the subjects of the study did not adhere to the protocol?  Where is the data that proves masks wearing is promising? It doesn't exist. Their data shows that there were no differences in the two groups. Read This Entire Study <a style="text-decoration: none" href="/assets/docs/003335491012500206.pdf" target="_blank">Here</a>.</p>
+                <div class="mobile quote"><a target="_blank" style="text-decoration: none" href="assets/docs/003335491012500206.pdf"><img src="assets/img/nobenefit8.png" style="border: 3px solid; border-color: grey;" alt="" width="400"></a><br><br></div>
+                <p class="lead">But.... most studies, including this one cited, state that mask wearing <b><b>has almost no effect</b></b> and that they cannot even get the participants to wear the masks because of tolerance issues. This is what they call : <a id="poorcompliance" style="text-decoration: none" href="assets/img/poorcompliance.png" target="_blank">poor compliance.</a> How can they possibly conclude that mask wearing is promising when the subjects of the study did not adhere to the protocol?  Where is the data that proves masks wearing is promising? It doesn't exist. Their data shows that there were no differences in the two groups. Read This Entire Study <a style="text-decoration: none" href="assets/docs/003335491012500206.pdf" target="_blank">Here</a>.</p>
             </div>
             <div class="col-md-5 non-mobile">
                 <div class="non-mobile" style="padding-bottom: 120px;"></div>
-                <div class="quote"><a target="_blank" style="text-decoration: none" href="/assets/docs/003335491012500206.pdf"><img src="/assets/img/nobenefit6.png" style="border: 3px solid; border-color: grey;" alt="" width="500"></a></div>
+                <div class="quote"><a target="_blank" style="text-decoration: none" href="assets/docs/003335491012500206.pdf"><img src="assets/img/nobenefit6.png" style="border: 3px solid; border-color: grey;" alt="" width="500"></a></div>
                 <br>
                 <br>
                 <br>
-                <div class="quote"><a target="_blank" style="text-decoration: none" href="/assets/docs/003335491012500206.pdf"><img src="/assets/img/nobenefit7.png" style="border: 3px solid; border-color: grey;" alt="" width="500"></a></div>
+                <div class="quote"><a target="_blank" style="text-decoration: none" href="assets/docs/003335491012500206.pdf"><img src="assets/img/nobenefit7.png" style="border: 3px solid; border-color: grey;" alt="" width="500"></a></div>
                 <br>
                 <br>
                 <br>
-                <div class="quote"><a target="_blank" style="text-decoration: none" href="/assets/docs/003335491012500206.pdf"><img src="/assets/img/nobenefit8.png" style="border: 3px solid; border-color: grey;" alt="" width="500"></a></div>
+                <div class="quote"><a target="_blank" style="text-decoration: none" href="assets/docs/003335491012500206.pdf"><img src="assets/img/nobenefit8.png" style="border: 3px solid; border-color: grey;" alt="" width="500"></a></div>
 
             </div>
         </div>
@@ -815,13 +815,13 @@ $url = "http://$_SERVER[HTTP_HOST]";
         <div class="row featurette">
             <div class="col-md-7">
                 <h2 class="featurette-heading" id="legal"> Masking Order Medical Exception Badge <span class="text-muted">A Unique, Beautiful & Informative Statement Without Saying A Single Word </span></h2><br>
-                <div class="mobile"><a target="_blank" style="text-decoration: none" href="/assets/img/MASKEXCEPTIONFRONT.png"><img class="quote" src="/assets/img/MASKEXCEPTIONFRONT.png" style="border: 3px solid; border-color: grey;" alt="" width="200"></a>&nbsp;&nbsp;<a target="_blank" style="text-decoration: none" href="/assets/img/MASKEXCEPTIONBACK.png"><img class="quote" src="/assets/img/MASKEXCEPTIONBACK.png" style="border: 3px solid; border-color: grey;" alt="" width="190"></a><br><br></div>
+                <div class="mobile"><a target="_blank" style="text-decoration: none" href="assets/img/MASKEXCEPTIONFRONT.png"><img class="quote" src="assets/img/MASKEXCEPTIONFRONT.png" style="border: 3px solid; border-color: grey;" alt="" width="200"></a>&nbsp;&nbsp;<a target="_blank" style="text-decoration: none" href="assets/img/MASKEXCEPTIONBACK.png"><img class="quote" src="assets/img/MASKEXCEPTIONBACK.png" style="border: 3px solid; border-color: grey;" alt="" width="190"></a><br><br></div>
                 <p class="lead">Firstly, let's get the legal stuff out of the way. This website is not engaged in dispensing legal or medical advice. The author is not a lawyer, medical doctor, scholar, business consultant or a yoga teacher. The products and image downloads offered here are for informational and entertainment purposes only. Use at your own risk. To Access This Site You Must Agree To Our Legal Disclaimer and Downloads Notice. See Our Full Legal <a style="text-decoration: none" href="#" class="disclaimer">Disclaimer</a> Here. See Our <a style="text-decoration: none" href="#" class="downloads">Downloads Notice</a> Here.
-                    Under section 3a of the <a href="assets/docs/20200701-SOH-Universal-Face-Coverings-Order.pdf" target="_blank" style="text-decoration: none">current PA universal masking order</a>, you are allowed and entitled to be excepted from the requirement to wear a mask at all times while in public if wearing a mask is not conducive with <a href="assets/img/section3aandb.png" target="_blank" style="text-decoration: none">a medical or mental health condition or disability that you have.</a> Under section 3b of that same order, it says that <a href="assets/img/section3aandb.png" target="_blank" style="text-decoration: none"> <b>you do not need to provide proof of a medical exception</b></a>. This includes the fact that you shouldn't need to wear a badge or a sign explaining it either. But we have found that those who might be angry that you are not wearing a mask in a store may be inclined to leave you alone if they are properly and quietly informed that you have a medical condition allowed as an exception. That is why we decided to begin offering this amazing product to give you the boost of confidence you need when going to the store. Print your own two-sided badge<a target="_blank" style="text-decoration: none" href="/assets/img/maskexceptionbadgeprintout.pdf"> here </a> for free by clicking on the link. Print, laminate and share too. If you want a professionally printed version, email us at the bottom and we'll put you in touch with IDCreator. Btw, this website is loaded with great articles and research data on why masks are not beneficial. <a style="text-decoration: none" href="#top"> Go back to the top and check things out by clicking here</a> </p>
+                    Under section 3a of the <a href="assets/docs/20200701-SOH-Universal-Face-Coverings-Order.pdf" target="_blank" style="text-decoration: none">current PA universal masking order</a>, you are allowed and entitled to be excepted from the requirement to wear a mask at all times while in public if wearing a mask is not conducive with <a href="assets/img/section3aandb.png" target="_blank" style="text-decoration: none">a medical or mental health condition or disability that you have.</a> Under section 3b of that same order, it says that <a href="assets/img/section3aandb.png" target="_blank" style="text-decoration: none"> <b>you do not need to provide proof of a medical exception</b></a>. This includes the fact that you shouldn't need to wear a badge or a sign explaining it either. But we have found that those who might be angry that you are not wearing a mask in a store may be inclined to leave you alone if they are properly and quietly informed that you have a medical condition allowed as an exception. That is why we decided to begin offering this amazing product to give you the boost of confidence you need when going to the store. Print your own two-sided badge<a target="_blank" style="text-decoration: none" href="assets/img/maskexceptionbadgeprintout.pdf"> here </a> for free by clicking on the link. Print, laminate and share too. If you want a professionally printed version, email us at the bottom and we'll put you in touch with IDCreator. Btw, this website is loaded with great articles and research data on why masks are not beneficial. <a style="text-decoration: none" href="#top"> Go back to the top and check things out by clicking here</a> </p>
             </div>
             <div class="col-md-5 non-mobile">
                 <div class="non-mobile" style="padding-bottom: 120px;"></div>
-                <a target="_blank" style="text-decoration: none" href="/assets/img/MASKEXCEPTIONFRONT.png"><img src="/assets/img/MASKEXCEPTIONFRONT.png" style="border: 3px solid; border-color: grey;" alt="" width="500"></a>
+                <a target="_blank" style="text-decoration: none" href="assets/img/MASKEXCEPTIONFRONT.png"><img src="assets/img/MASKEXCEPTIONFRONT.png" style="border: 3px solid; border-color: grey;" alt="" width="500"></a>
 
 
             </div>
@@ -832,12 +832,12 @@ $url = "http://$_SERVER[HTTP_HOST]";
         <div class="row featurette">
             <div class="col-md-7 order-md-2">
                 <h2 class="featurette-heading">A Sign of Sanity <span class="text-muted">Of Peace And Goodwill To All Who Patronize Your Business, Masked or Not</span></h2><br>
-                <div class="mobile"><a target="_blank" style="text-decoration: none" href="/assets/img/MEDICALEXCEPTIONSIGN.png"><img src="/assets/img/MEDICALEXCEPTIONSIGN.png" style="border: 3px solid; border-color: grey;" alt="" width="400"></a><br><br></div>
-                <p class="lead">To Access This Site You Must Agree To Our Legal Disclaimer and Downloads Notice. See Our Full Legal <a style="text-decoration: none" href="#" class="disclaimer">Disclaimer</a> Here. See Our <a style="text-decoration: none" href="#" class="downloads">Downloads Notice</a> Here.  In section 3a of the <a href="assets/docs/20200701-SOH-Universal-Face-Coverings-Order.pdf" target="_blank" style="text-decoration: none">current PA universal masking order</a>. Your patrons may qualify to be in public without wearing a mask including in your store. The news media has been silent about this legal right of exception and some mask wearers  have been seen confronting or being violent towards non-mask wearers. As a result, very few businesses and individuals know that the universal masking order has exceptions for medical conditions and disabilities. Help your patrons be informed and make sure you don't alienate anyone due to their medical condition or disability. <a href="/assets/img/MEDICALEXCEPTIONSIGN.png" style="text-decoration: none" target="_blank">Download and print your sign today</a>. This sign is specific to PA.</p>
+                <div class="mobile"><a target="_blank" style="text-decoration: none" href="assets/img/MEDICALEXCEPTIONSIGN.png"><img src="assets/img/MEDICALEXCEPTIONSIGN.png" style="border: 3px solid; border-color: grey;" alt="" width="400"></a><br><br></div>
+                <p class="lead">To Access This Site You Must Agree To Our Legal Disclaimer and Downloads Notice. See Our Full Legal <a style="text-decoration: none" href="#" class="disclaimer">Disclaimer</a> Here. See Our <a style="text-decoration: none" href="#" class="downloads">Downloads Notice</a> Here.  In section 3a of the <a href="assets/docs/20200701-SOH-Universal-Face-Coverings-Order.pdf" target="_blank" style="text-decoration: none">current PA universal masking order</a>. Your patrons may qualify to be in public without wearing a mask including in your store. The news media has been silent about this legal right of exception and some mask wearers  have been seen confronting or being violent towards non-mask wearers. As a result, very few businesses and individuals know that the universal masking order has exceptions for medical conditions and disabilities. Help your patrons be informed and make sure you don't alienate anyone due to their medical condition or disability. <a href="assets/img/MEDICALEXCEPTIONSIGN.png" style="text-decoration: none" target="_blank">Download and print your sign today</a>. This sign is specific to PA.</p>
             </div>
             <div class="col-md-5 order-md-1 non-mobile">
                 <div class="non-mobile" style="padding-bottom: 120px;"></div>
-                <a target="_blank" style="text-decoration: none" href="/assets/img/MEDICALEXCEPTIONSIGN.png"><img src="/assets/img/MEDICALEXCEPTIONSIGN.png" style="border: 3px solid; border-color: grey;" alt="" width="441"></a>
+                <a target="_blank" style="text-decoration: none" href="assets/img/MEDICALEXCEPTIONSIGN.png"><img src="assets/img/MEDICALEXCEPTIONSIGN.png" style="border: 3px solid; border-color: grey;" alt="" width="441"></a>
 
             </div>
         </div>
@@ -856,11 +856,11 @@ $url = "http://$_SERVER[HTTP_HOST]";
             </div>
             <div class="col-md-5">
                 <div class="non-mobile" style="padding-bottom: 120px;"></div>
-                <img src="/assets/img/oxygendetector.jpg" style="border: 3px solid; border-color: grey;" alt="" width="500">
+                <img src="assets/img/oxygendetector.jpg" style="border: 3px solid; border-color: grey;" alt="" width="500">
                 <br>
                 <br>
                 <br>
-                <img src="/assets/img/pulseoximeter.jpg" style="border: 3px solid; border-color: grey;" alt="" width="500">
+                <img src="assets/img/pulseoximeter.jpg" style="border: 3px solid; border-color: grey;" alt="" width="500">
             </div>
         </div>
 
@@ -883,8 +883,8 @@ $url = "http://$_SERVER[HTTP_HOST]";
 </main>
 
 <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-<script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
-<script src="/assets/dist/js/bootstrap.bundle.min.js"></script>
+<script>window.jQuery || document.write('<script src="..assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+<script src="assets/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
 <script src="index.js"></script>
 </html>

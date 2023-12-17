@@ -9,7 +9,7 @@ $data = array(
         "id" => "1",
         "title" => "1. ProMED Mail Post",
         "date" => "DECEMBER 30, 2019 23:59:00",
-        "doc"=> "/assets/docs/timeline/1_ProMED-mail_post_dec30_2019.pdf",
+        "doc"=> "../assets/docs/timeline/1_ProMED-mail_post_dec30_2019.pdf",
 //        "src"=> "https://promedmail.org/promed-post/?id=6864153",
         "src"=> "https://web.archive.org/web/20201003203230/https://scholar.harvard.edu/files/kleelerner/files/20191230_promed_-_undiagnosed_pneumonia_-_china_hu-_rfi_archive_number-_20191230.6864153.pdf",
         "summary" => "The Covid-19 pandemic begins with this document. It is the source document cited by news, research papers and governments worldwide. It is the most important document in the world as it affects the lives of people in 180 nations. Yet, most don't know that it exists. It chronicles events taking place behind the scenes and is time and date stamped one minute before New Years Eve, the last day of 2019. This is a perfect beginning and a must read for any serious researcher that is curious about the origins of the pandemic. <b>Updated in November 2023:</b> The original ProMED mail posting was deleted. You can no longer reference it on their website. The original link is here : https://promedmail.org/promed-post/?id=6864153. Regrettably, even Archive.org does not have an accurate copy of this document. I am including a link to a copy of the same ProMED post seen as a PDF on this site that is stored on Harvard.edu servers. Here it is : https://scholar.harvard.edu/files/kleelerner/files/20191230_promed_-_undiagnosed_pneumonia_-_china_hu-_rfi_archive_number-_20191230.6864153.pdf. You can also see it here on Archive: https://web.archive.org/web/20201003203230/https://scholar.harvard.edu/files/kleelerner/files/20191230_promed_-_undiagnosed_pneumonia_-_china_hu-_rfi_archive_number-_20191230.6864153.pdf I maintain that this is genesis document for Covid and ProMED deleting it is very intriguing. I am now using the Archive link to the Harvard.edu copy as the original source.  ",
@@ -36,7 +36,7 @@ $data = array(
             "title" => "2. A total of 59 cases of unexplained viral pneumonia were
 found in Wuhan, and SARS was excluded",
             "date" => "January 5, 2020",
-            "doc"=> "/assets/docs/timeline/2_A%20total%20of%2059%20cases%20of%20unexplained%20viral%20pneumonia%20were%20found%20in%20Wuhan,%20and%20SARS%20was%20ruled%20out.pdf",
+            "doc"=> "../assets/docs/timeline/2_A%20total%20of%2059%20cases%20of%20unexplained%20viral%20pneumonia%20were%20found%20in%20Wuhan,%20and%20SARS%20was%20ruled%20out.pdf",
             "src"=> "http://news.hebei.com.cn/system/2020/01/05/100154729.shtml",
             "summary" => "Just 6 days after the first document, the Chinese news media is reporting through sources that SARS or Severe Acute Respiratory Syndrome had been ruled out. The article doesn't say how that happened. It just enters it as another rapid and bizarre emerging fact in the emergence of Covid-19 pandemic narrative. This article is translated into English here relying on Google Translate. The original Chinese article is in the source link.",
             "quotes" => array(
@@ -67,7 +67,7 @@ It instructs the citizens on how they are to behave. The article claims that the
         "id" => "3",
         "title" => "3. A Second ProMED Mail Post",
         "date" => "January 8, 2020 23:19:25",
-        "doc"=> "/assets/docs/timeline/3_Promed Post – ProMED-mail_January_8th_15_positives_from_one_patient.pdf",
+        "doc"=> "../assets/docs/timeline/3_Promed Post – ProMED-mail_January_8th_15_positives_from_one_patient.pdf",
         "src"=> "https://promedmail.org/promed-post/?id=20200108.6878869",
         "summary" => "9 days after the first ProMed Mail Post, a second post is delivered. It behaves like a Q and A and is reliant on translation engines to make sense of what is being transacted. At the top it states that one patient has tested positive 15 times. It later states in the same document that of the 59 sick 15 have tested positive which is directly contradicting the earlier statement. Maybe it was just a miscommunication or mistranslation. It continued to cite that 7 of the 59 were serious and 8 of the 59 had been discharged. No one has died yet of this mysterious pneumonia so it is puzzling why there is so much concern already. View this exciting document to see how the narrative continues to unfold.",
         "quotes" => array(
@@ -96,7 +96,7 @@ It instructs the citizens on how they are to behave. The article claims that the
         "id" => "4",
         "title" => "4. New York Times : China Identifies New Virus Causing Pneumonia-like Illness",
         "date" => "January 8, 2020",
-        "doc"=> "/assets/docs/timeline/4_China Identifies New Virus Causing Pneumonialike Illness - The New York Times.pdf",
+        "doc"=> "../assets/docs/timeline/4_China Identifies New Virus Causing Pneumonialike Illness - The New York Times.pdf",
         "src"=> "https://www.nytimes.com/2020/01/08/health/china-pneumonia-outbreak-virus.html",
         "summary" => "9 days after the first report, the NYT, the paper of record in the US weighs in. Let us look at the insight gained from this independent news behemoth reporting a fresh perspective on the Wuhan matter with not a single death as yet. It reads more like a word for word replaying of the Chinese State Media without the expected scrutiny and questioning. That statement is likely concerning for those who believe the NYT is critical of things that lack veracity. Let's take a closer look and see for ourselves as the Covid-19 narrative and timeline develops.",
         "quotes" => array(
@@ -128,7 +128,7 @@ Sunday, they said doctors had determined that <u>the child had a <b>common child
         "title" => "5. The continuing 2019-nCoV epidemic threat of novel coronaviruses to global health — The latest 2019 novel coronavirus outbreak in
 Wuhan, China",
         "date" => "January 14, 2020",
-        "doc"=> "/assets/docs/timeline/5_The continuing 2019-nCoV epidemic threat of novel coronaviruses to global health The latest 2019 novel coronavirus outbreak in Wuhan, China.pdf",
+        "doc"=> "../assets/docs/timeline/5_The continuing 2019-nCoV epidemic threat of novel coronaviruses to global health The latest 2019 novel coronavirus outbreak in Wuhan, China.pdf",
         "src"=> "https://www.ijidonline.com/action/showPdf?pii=S1201-9712%2820%2930011-4",
         "summary" => "Fifteen days into this new <i>outbreak</i> with less than 60 people sick and not a single death, the international journal for infectious diseases weighs in with an editorial. At this point,  8 patients have recovered and been discharged. Yet this journal weighs with an editorial signaling it might be the end of the world. Though, in the conflict of interest section, it clearly shows that the writers of the editorial are set to profit handsomly from expanded testing and research that an outbreak would afford to them. Let's see what this journal with a huge conflict of interest has to say. ",
         "quotes" => array(
@@ -197,7 +197,7 @@ Therefore no sensible person that has carefully reviewed the article and relevan
         "id" => "6",
         "title" => "6. A Novel Coronavirus Genome Identified in a Cluster of Pneumonia Cases — Wuhan, China 2019−2020",
         "date" => "January 19, 2020",
-        "doc"=> "/assets/docs/timeline/6_A+Novel+Coronavirus+Genome+Identified+in+a+Cluster+of+Pneumonia+Cases+—+Wuhan,+China+2019−2020.pdf",
+        "doc"=> "../assets/docs/timeline/6_A+Novel+Coronavirus+Genome+Identified+in+a+Cluster+of+Pneumonia+Cases+—+Wuhan,+China+2019−2020.pdf",
         "src"=> "",
         "summary" => "In this extremely brief article the cases jump to 201. The narrative further develops and wild speculation about animal to human transfer of a new disease is presented. There are no citations to show where this extra 150 cases came from and what the status of the health for each new case. is At this point in the narrative evolution, it has already begun to transfer away from sick people with symptoms to simply cases without further discussion as to the symptoms present.",
         "quotes" => array(
@@ -220,7 +220,7 @@ Therefore no sensible person that has carefully reviewed the article and relevan
         "id" => "7",
         "title" => "7. ABC NEWS-- 201 cases of SARS-like virus reported throughout China, officials say.",
         "date" => "January 19, 2020",
-        "doc"=> "/assets/docs/timeline/7_201 cases of SARS-like virus reported throughout China, officials say - ABC News.pdf",
+        "doc"=> "../assets/docs/timeline/7_201 cases of SARS-like virus reported throughout China, officials say - ABC News.pdf",
         "src"=> "https://abcnews.go.com/Health/17-cases-sars-virus-reported-china-officials/story?id=68388799",
         "summary" => "ABC news weighs in on the Covid-19 narrative with a report that appears authoritative with a video discussion between a famous American news presenter and a reporter at a New York Airport. The fear stoking engine is in full force from the furrowed brow and grimaces by the news presenter to the misuse of hyperlinking to unrelated stories as if they present source material for the claims in this article. This article continues expansion of narrative of 201 cases but does not cite a source. Let's have a closer look.",
         "quotes" => array(
@@ -237,7 +237,7 @@ Therefore no sensible person that has carefully reviewed the article and relevan
         "id" => "8",
         "title" => "8. The Deleted Source Article of The New Patient Explosion Totaling <i>201 Patients</i> From The Wuhan National Health Commission ",
         "date" => "January 19, 2020",
-        "doc"=> "/assets/docs/timeline/8_Wuhan Municipal Health Commission.pdf",
+        "doc"=> "../assets/docs/timeline/8_Wuhan Municipal Health Commission.pdf",
         "src"=> "https://web.archive.org/web/20200120052215/http://wjw.wuhan.gov.cn/front/web/showDetail/2020012009077",
         "summary" => "The original official document from the Wuhan National Health Commission that was deleted by Wuhan has been recovered. This important document shows conflicting accounts of numbers and patients. It is a struggle to determine what is factual in this article as the number of patients and cases change throughout the article multiple times. See for yourself this important missing piece that we have recovered and displayed for you here in the Countdown to Covid-19 Timeline. Translated into Engish by Google Translate.",
         "quotes" => array(
@@ -254,7 +254,7 @@ Therefore no sensible person that has carefully reviewed the article and relevan
         "id" => "9",
         "title" => "9. Pneumonia of Unknown Etiology in Wuhan, China: Potential for International Spread Via Commercial Air Travel ",
         "date" => "January 31, 2020",
-        "doc"=> "/assets/docs/timeline/9_TravelfromWuhanJournalofTravelMedicine.pdf",
+        "doc"=> "../assets/docs/timeline/9_TravelfromWuhanJournalofTravelMedicine.pdf",
         "src"=> "https://www.researchgate.net/publication/338656899_Pneumonia_of_Unknown_Etiology_in_Wuhan_China_Potential_for_International_Spread_Via_Commercial_Air_Travel",
         "summary" => "The Journal of Travel Medicine weighs in with more verbatim repetition of claims from earlier sources and a continued reminder of the SARS epidemic that killed 774 people in a country of 2 billion that no one in the west even remembers happened. I include this article as it is cited repeatedly as a cause of concern for public safety due to air travel. It is the source document and part of the Covid-19 narrative to disrupt air travel completely. They even include a table of the top 20 destinations from Wuhan. None of those cities are US. Cities. Let's take a closer look at how they Journal of Travel Medicine editorializes the alleged <i>outbreak</i> and stokes the flames of fear and speculation. ",
         "quotes" => array(
@@ -271,7 +271,7 @@ Therefore no sensible person that has carefully reviewed the article and relevan
         "id" => "10",
         "title" => "10. Contagious Infants Part 1 : An NIH Study -- Novel Coronavirus Infection in Hospitalized Infants Under 1 Year of Age in China ",
         "date" => "February 14, 2020",
-        "doc"=> "/assets/docs/timeline/10_Novel Coronavirus Infection in Hospitalized Infants Under 1 Year of Age in China.pdf",
+        "doc"=> "../assets/docs/timeline/10_Novel Coronavirus Infection in Hospitalized Infants Under 1 Year of Age in China.pdf",
         "src"=> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7042807/",
         "summary" => "A detailed summary of this article has not been created just yet. Stay tuned!",
         "quotes" => array(
@@ -286,7 +286,7 @@ Therefore no sensible person that has carefully reviewed the article and relevan
         "id" => "11",
         "title" => "11. Contagious Infants Part 2 : <i>A Well Infant With Coronavirus Disease 2019 With High Viral Load</i> ",
         "date" => "February 28, 2020",
-        "doc"=> "/assets/docs/timeline/11_ciaa201.pdf",
+        "doc"=> "../assets/docs/timeline/11_ciaa201.pdf",
         "src"=> "https://academic.oup.com/cid/article/71/15/847/5766416",
         "summary" => "A detailed summary of this article has not been created just yet. Stay tuned!",
         "quotes" => array(
@@ -301,7 +301,7 @@ Therefore no sensible person that has carefully reviewed the article and relevan
         "id" => "12",
         "title" => "12. The Covid 19 Source Experiment Part 1 : NEJM -- A Novel Coronavirus from Patients with Pneumonia in China, 2019 ",
         "date" => "February 20, 2020",
-        "doc"=> "/assets/docs/timeline/12_nejmoa2001017.pdf",
+        "doc"=> "../assets/docs/timeline/12_nejmoa2001017.pdf",
         "src"=> "https://www.nejm.org/doi/10.1056/NEJMoa2001017",
         "summary" => "A detailed summary of this article has not been created just yet. Stay tuned!",
         "quotes" => array(
@@ -317,7 +317,7 @@ Therefore no sensible person that has carefully reviewed the article and relevan
         "id" => "13",
         "title" => "13. The Covid 19 Source Experiment Part 2 : Osong Public Health and Research Perspectives -- Identification of Coronavirus Isolated from a Patient in Korea with COVID-19 ",
         "date" => "February 19, 2020",
-        "doc"=> "/assets/docs/timeline/13_ophrp-11-3.pdf",
+        "doc"=> "../assets/docs/timeline/13_ophrp-11-3.pdf",
         "src"=> "https://ophrp.org/journal/view.php?doi=10.24171/j.phrp.2020.11.1.02",
         "summary" => "A detailed summary of this article has not been created just yet. Stay tuned!",
         "quotes" => array(
@@ -334,7 +334,7 @@ Therefore no sensible person that has carefully reviewed the article and relevan
         "title" => "14. Presymptomatic Transmission of SARS-CoV-2 — Singapore,
 January 23–March 16, 2020",
         "date" => "April 10, 2020",
-        "doc"=> "/assets/docs/timeline/14_mm6914e1-H.pdf",
+        "doc"=> "../assets/docs/timeline/14_mm6914e1-H.pdf",
         "src"=> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7147908/",
         "summary" => "A detailed summary of this article has not been created just yet. Stay tuned!",
         "quotes" => array(
@@ -350,7 +350,7 @@ January 23–March 16, 2020",
         "title" => "15. Presymptomatic Transmission of SARS-CoV-2 — Singapore,
 January 23–March 16, 2020",
         "date" => "April 10, 2020",
-        "doc"=> "/assets/docs/timeline/14_mm6914e1-H.pdf",
+        "doc"=> "../assets/docs/timeline/14_mm6914e1-H.pdf",
         "src"=> "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7147908/",
         "summary" => "A detailed summary of this article has not been created just yet. Stay tuned!",
         "quotes" => array(

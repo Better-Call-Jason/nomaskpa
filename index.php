@@ -1,6 +1,9 @@
 <?php
 error_reporting(E_ERROR);
-require 'ip.php';
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+//require 'ip.php';
 require 'data.php';
 
 
@@ -19,9 +22,9 @@ require 'data.php';
     <title><?php echo $header['title']; ?></title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
-    <link href="<?php echo $url ?>/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
-    <link href="<?php echo $url ?>/assets/dist/css/carousel.css" rel="stylesheet">
+    <link href="assets/dist/css/carousel.css" rel="stylesheet">
 </head>
 <body>
 <?php include 'stylesheet.php'; ?>
@@ -29,10 +32,10 @@ require 'data.php';
     <div id="toppity"></div>
     <nav class="navbar navbar-expand-md fixed-top navbar-light" style="background-color: #e3f2fd;">
         <a class="navbar-brand non-mobile" href="#">
-            <img src="/assets/img/nomaskpalogo%20.png" width="225" alt="" loading="lazy">
+            <img src="assets/img/nomaskpalogo%20.png" width="225" alt="" loading="lazy">
         </a>
         <a class="navbar-brand mobile" href="#">
-            <img src="/assets/img/nomaskpalogo%20.png" width="180" alt="" loading="lazy">
+            <img src="assets/img/nomaskpalogo%20.png" width="180" alt="" loading="lazy">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -45,26 +48,9 @@ require 'data.php';
                         &nbsp;&nbsp;&nbsp;&nbsp;Links
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-<!--                        <a class="dropdown-item" data-toggle="collapse" data-target="#navbarSupportedContent" href="#fifthgrader">Will An N95 Masks Protect Me?</a>-->
-<!--                        <a class="dropdown-item" data-toggle="collapse" data-target="#navbarSupportedContent" href="#test">Do Masks Stop The Coronavirus?</a>-->
-<!--                        <a class="dropdown-item" data-toggle="collapse" data-target="#navbarSupportedContent" href="#numbers">Is The Protection Rating Correct?</a>-->
-<!--                        <a class="dropdown-item" data-toggle="collapse" data-target="#navbarSupportedContent" href="#surgeons">Are They Overestimating The Safety of a Mask?</a>-->
-<!--                        <a class="dropdown-item" data-toggle="collapse" data-target="#navbarSupportedContent" href="#children">Are Exhale Valves on Masks Good or Bad?</a>-->
-<!--                        <div class="dropdown-divider"></div>-->
-<!--                        <a class="dropdown-item" data-toggle="collapse" data-target="#navbarSupportedContent" href="#quackery">Are Sick People Contagious?</a>-->
-<!--                        <a class="dropdown-item" data-toggle="collapse" data-target="#navbarSupportedContent" href="#badge">Can I Catch Covid From Someone Else?</a>-->
-<!--                        <a class="dropdown-item" data-toggle="collapse" data-target="#navbarSupportedContent" href="#business">Did The Scientists Test or Guess?</a>-->
-<!--                        <a class="dropdown-item" data-toggle="collapse" data-target="#navbarSupportedContent" href="#experiment">Are Scientists Lying About Coronavirus?</a>-->
-<!--                        <a class="dropdown-item" data-toggle="collapse" data-target="#navbarSupportedContent" href="#experiment">Are Scientists Making It Up AS They Go?</a>-->
-<!--                        <div class="dropdown-divider"></div>-->
-<!--                        <a class="dropdown-item" data-toggle="collapse" data-target="#navbarSupportedContent" href="#experiment">Was Forced Masking Planned?</a>-->
-<!--                        <a class="dropdown-item" data-toggle="collapse" data-target="#navbarSupportedContent" href="#experiment">What About Children?</a>-->
-<!--                        <a class="dropdown-item" data-toggle="collapse" data-target="#navbarSupportedContent" href="#experiment">Do Children Experience Breathing Trouble When Wearing a Mask?</a>-->
-<!--                        <a class="dropdown-item" data-toggle="collapse" data-target="#navbarSupportedContent" href="#experiment">Do Children Experience Excessive Pain When Wearing a Mask?</a>-->
-<!--                        <div class="dropdown-divider"></div>-->
-                        <a class="dropdown-item" target="_blank" href="/timeline">The Covid-19 Timeline&nbsp;&nbsp;<img src="assets/img/external-link-duotone.svg" width="12"></a>
+                        <a class="dropdown-item" target="_blank" href="timeline">The Covid-19 Timeline&nbsp;&nbsp;<img src="assets/img/external-link-duotone.svg" width="12"></a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" target="_blank" href="/legacy.php">Legacy Site&nbsp;&nbsp;<img src="assets/img/external-link-duotone.svg" width="12"></a>
+                        <a class="dropdown-item" target="_blank" href="legacy.php">Legacy Site&nbsp;&nbsp;<img src="assets/img/external-link-duotone.svg" width="12"></a>
                         <div class="dropdown-divider"></div>
 
                         <a class="dropdown-item disclaimer" href="#">View Our Legal Disclaimer</a>
@@ -144,7 +130,7 @@ require 'data.php';
 </main>
 
 <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
-<script src="/assets/dist/js/bootstrap.bundle.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+<script src="assets/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
 <script src="index.js"></script>
